@@ -1,0 +1,123 @@
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+
+# Logs and runtime data
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+.pnp.*
+coverage/
+.nyc_output/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.turbo/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build-python/
+develop-eggs/
+dist-python/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.venv/
+venv/
+env/
+ENV/
+
+# Java and build tools
+*.class
+*.jar
+target/
+.gradle/
+
+# Test and temporary files
+.coverage
+.coverage.*
+htmlcov/
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Databases and local storage
+*.sqlite
+*.sqlite3
+*.db
+
+# Secrets, certificates, and keys
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Archives and generated artifacts
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# OS-specific project files
+*.iml
+*.ipr
+*.iws
