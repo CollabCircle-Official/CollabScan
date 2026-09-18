@@ -1,0 +1,40 @@
+{
+  "name": "collabscan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A fast, private QR code generator and scanner by CollabCircle.",
+  "license": "MIT",
+  "homepage": "https://github.com/CollabCircle-Official/CollabScan#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CollabCircle-Official/CollabScan.git"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "security:audit": "npm audit --audit-level=high"
+  },
+  "dependencies": {
+    "html5-qrcode": "2.3.8",
+    "lucide-react": "1.47.0",
+    "next": "16.3.5",
+    "qrcode": "1.5.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-icons": "5.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.3.5",
+    "typescript": "6.0.3"
+  }
+}
